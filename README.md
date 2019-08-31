@@ -13,7 +13,16 @@ pretrained model is in mnistneuralnet17.h5
 excel file for storing result is marksheet.xls
 
 ## outcome
-In this project,CNN model is employed to recognize 19 cropped images of marks correctly out of 22 cropped images of marksfrom the scanned copy of the marksheet. 
+In this project,CNN model is employed to recognize 19 cropped images of marks correctly out of 22 cropped images of marksfrom the scanned copy of the marksheet.
+
+## dependencies
+* keras
+* tensorflow
+* numpy
+* pandas
+* pillow
+* opencv
+* matplotlib
 
 ## steps
 Following steps are followed for recognizing marks from student marksheet: 
@@ -74,6 +83,13 @@ e.  Finally resizing it [28,28]:finally resize it to size 28*28 because trained 
  
 ###  Recognition 
 recognize final resized image by using the pretrained CNN model.
+
+### further extensions
+* first is to generalize this code beacuse this code is valid for presicting marks on this marksheet only.
+* second is how to avoid cropping manually.
+* third is to predict for multidigits.
+
+
 
  
 
