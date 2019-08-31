@@ -85,9 +85,9 @@ e.  Finally resizing it [28,28]:finally resize it to size 28*28 because trained 
 recognize final resized image by using the pretrained CNN model.
 
 ### further extensions
-* first is to generalize this code beacuse this code is valid for presicting marks on this marksheet only.
-* second is how to avoid cropping manually.
-* third is to predict for multidigits.
+* First is to generalize this code beacuse this code is valid for predicting marks on this marksheet only.
+* Second is how to avoid cropping manually.
+* Third is how to predict for multidigits.
 
 
 
